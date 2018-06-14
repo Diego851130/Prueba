@@ -1,0 +1,144 @@
+/*hoja de estilos pagina personal*/
+
+
+Body  {
+	color: black;
+	background-color: #F5F5DC;
+font-family: Verdana,Arial,Helvetica, sans-serif;
+font-size:small;
+}
+font {
+#F5F5DC;
+font-family: Verdana,Arial,Helvetica, sans-serif;
+font-size:30pt;
+text-align:center;
+}
+
+#wrapper {
+color: black;
+background-color: #808000;
+width: 70%;
+margin-top: auto;
+margin-right: auto;
+margin-bottom: auto;
+margin-left: auto;
+}
+
+#encabezado p
+
+ {
+paddin: 5px 0 5px 0;
+margin-bottom: 0;
+}
+h1 {font-size: 180%;}
+
+
+
+margin-bottom: 0;
+color: red;
+background-color: #f3c600;
+
+
+
+h2 {font-size: 130%;}
+
+#navegacion {
+text-align: center;
+color black;
+background-color: #f3c600;
+margin-bottom: 0;
+padding: 5px 10px 4px 10px;
+border-bottom: 1px solid #8c8c8c;
+}
+#navegacion ul {
+margin: 1px 1px 1px;
+margin-bottom: 6px;
+}
+#navegacion li {
+display: inline;
+list-style-type: none;
+margin-bottom: 0;
+margin:  0 0 0;
+}
+#navegacion a 
+{
+color: black;
+background-color: #ffeda0;
+padding: 4px 8px 8px 8px;
+border: 1px solid #8c8c8c;
+}
+#navegacion a: active {background-color: white;}
+
+
+#areatexto
+{
+padding-top: 20px;
+padding-right: 10px;
+padding-bottom: 20px;
+padding-left: 20px;
+}
+
+#pie
+{
+padding-top: 20px;
+padding-top: 10px;
+border-top: 1px solid #A9122a;
+margin-top: 20px;
+}
+address {
+text-align: center;
+font-size: 80%;
+font-style:normal;
+letter-spacing: 2px;
+line-height: 1.5em;
+}
+.skiplink { display: none; }
+
+a { text-decoration: none; }
+a: link {color: # d90000;}
+a: visited {color: #cc6666;}
+a:hover, a:focus { text-decoration:underline;}
+a:active { color: white; background-color:#d90000; }
+
+#navegacion a:hover,
+#inicio #navi01 a,
+#perfil #navi02 a,
+#Estudios #navi03 a,
+#Experiencia #navi04 a,
+#Cursos #navi05 a,
+#Referencias #navi06 a,
+#contacteme #navi08 a
+
+{
+text-decoration:none;
+color: black;
+background-color: gray;
+padding-bottom: 5px;
+border-bottom: none;
+}
+
+
+
+
+
+/* =====================================
+Formulario de Contacto
+======================================*/
+form {
+background-color: #eee;
+width: 400px;
+padding: 20px;
+border: 1px solid #8c8c8c;
+}
+label { display: block; }
+#remitente, textarea {
+width: 300px;
+border: 1px solid # 8c8c8c;
+margin-bottom: lem;
+}
+textarea { height: 7em; }
+input: focus, textarea:focus
+{
+background-color: #d9d9d9;
+}
+
